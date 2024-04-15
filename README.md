@@ -52,7 +52,7 @@ The Body SHA-256 serves multiple crucial purposes in phishing investigations. Fi
 <br />
 
 <h2>Final Report</h2>
-
+After thorough investigation, it is evident that this email constitutes a phishing attempt. There is no indication that it was sent by PayPal, and the included links have been identified as known phishing attempts. Therefore, I recommend deleting this email immediately and performing remediation if any client has visited the URL link.
 </p>
 
 <!--
