@@ -14,8 +14,6 @@ Open a Copy of a Suspected Phishing Email ELM File, Inspect Header for Discrepan
 
 - <b>Windows 10</b>
 
-<h2>Scenario</h2>
-Your email address has been leaked and you receive an email from Paypal in German. Analyze the suspicious email.
 <br />
 
 <h2>Analysis:</h2>
