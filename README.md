@@ -22,87 +22,37 @@ Your email address has been leaked and you receive an email from Paypal in Germa
 
 <p align="center">
 Open Suspected Phishing Email in Mozilla Thunderbird: <br/>
-<img src="https://i.imgur.com/7Q2on3g.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+<img src="https://i.imgur.com/7Q2on3g.png" height="80%" width="80%" alt="Phishing Investigation "/>
+<br />
+
+The email raises suspicion, particularly due to anomalies in the sender's email address and name. The email address lacks any indication of association with PayPal, and the sender's name (☆P.A.Y.P.A.L☆) deviates from the typical representation used by PayPal. These inconsistencies suggest a potential phishing attempt.
+<br />
+
+<p align="center">
+View Source of EML File with Mozilla Thunderbird: <br/>
+<img src="https://i.imgur.com/Vx2RJaW.png" height="80%" width="80%" alt="Phishing Investigation "/>
+<br />
+
+When viewing the email source, it becomes evident that the return path differs from the address used to send the email. This inconsistency is a common tactic in phishing emails and further heightens suspicion.
+<br />
+
+<p align="center">
+Next Copy the Link Address in Email for Further Investigation:  <br/>
+<img src="https://i.imgur.com/qw23jhY.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
 <br />
-Install Windows Server 2019:  <br/>
-<img src="https://i.imgur.com/s6NwCpQ.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+Perform Search on VirusTotal for Email Link URL, Find Multiple Security Vendors Flagged URL as Malicious and Specifically as a Phishing Attempt.: <br/>
+<img src="https://i.imgur.com/tkNCM85.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
+Find Body SHA-256 Under Details: <br/>
+<img src="https://i.imgur.com/toV80aq.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
-Identify and Rename Internal Network Adapter by Finding Adapter with an APIPA: <br/>
-<img src="https://i.imgur.com/yTRE0d4.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+
+The Body SHA-256 serves multiple crucial purposes in phishing investigations. Firstly, it enables comparison of URLs against known malicious entries in databases or blacklists, aiding in the detection and prevention of future phishing attempts through automated systems. Additionally, it facilitates the sharing of phishing attempts among security professionals without compromising sensitive information contained within the phishing email.
 <br />
-<br />
-Rename Server PC:  <br/>
-<img src="https://i.imgur.com/rEetYO6.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Assign Server IPv4 Address and Set DNS to Loopback Address:  <br/>
-<img src="https://i.imgur.com/b1Emikx.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Install Active Directory:  <br/>
-<img src="https://i.imgur.com/lfaetmf.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Promote Server to a Domain Controller:  <br/>
-<img src="https://i.imgur.com/mfQqQWt.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Create Organizational Unit for Admin Users:  <br/>
-<img src="https://i.imgur.com/DrewKHC.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Create New Admin User:  <br/>
-<img src="https://i.imgur.com/OBby43P.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Make User Member Of Domain Admin Group:  <br/>
-<img src="https://i.imgur.com/3oloAVc.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Sign Out of Main Admin Account and Sign In with Newly Created Admin User:  <br/>
-<img src="https://i.imgur.com/6eBOaTC.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Install Remote Access for NAT and RAS:  <br/>
-<img src="https://i.imgur.com/gLNkrYJ.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Set NAT Internet Connection to Internet Adapter:  <br/>
-<img src="https://i.imgur.com/pGkypis.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Install DHCP Role:  <br/>
-<img src="https://i.imgur.com/gyKhEMH.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Set Scope for IPv4 Range:  <br/>
-<img src="https://i.imgur.com/dXxoNeE.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Set Default Gateway to Server IP Address:  <br/>
-<img src="https://i.imgur.com/tKWi1C7.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Set DNS to Server IP Address:  <br/>
-<img src="https://i.imgur.com/ej8Yu0c.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Create Users with PowerShell Script:  <br/>
-<img src="https://i.imgur.com/mTDxMTO.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Create New Windows 10 Virtual Machine for a Client and Set Network Adapter to Internal:  <br/>
-<img src="https://i.imgur.com/AO3Tt4F.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Rename Client PC and Join the Server Domain:  <br/>
-<img src="https://i.imgur.com/VfQKOEo.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
-<br />
-<br />
-Sign In to Domain from Client:  <br/>
-<img src="https://i.imgur.com/ThF84jN.png" height="80%" width="80%" alt="Active Directory Lab Steps"/>
+
+<h2>Final Report</h2>
+
 </p>
 
 <!--
