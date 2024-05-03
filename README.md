@@ -1,4 +1,4 @@
-<h1>Phishing Email Investigation</h1>
+<h1>Detecting Phishing Emails</h1>
 
 <h2>Description</h2>
 Open a Copy of a Suspected Phishing Email ELM File, Inspect Header for Discrepancies, Search VirusTotal with URL Included in Email, and Report Findings. 
