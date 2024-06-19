@@ -1,7 +1,7 @@
 <h1>Detecting Phishing Emails</h1>
 
 <h2>Description</h2>
-Open a Copy of a Suspected Phishing Email ELM File, Inspect Header for Discrepancies, Search VirusTotal with URL Included in Email, and Report Findings. 
+Open a copy of a suspected phishing email ELM File, inspect header for discrepancies, search VirusTotal with URL included in email, and report findings. 
 <br />
 
 
@@ -19,7 +19,7 @@ Open a Copy of a Suspected Phishing Email ELM File, Inspect Header for Discrepan
 <h2>Analysis:</h2>
 
 <p align="center">
-Open Suspected Phishing Email in Mozilla Thunderbird: <br/>
+Open suspected phishing email in Mozilla Thunderbird: <br/>
 <img src="https://i.imgur.com/7Q2on3g.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
 
@@ -27,7 +27,7 @@ The email raises suspicion, particularly due to anomalies in the sender's email 
 <br />
 
 <p align="center">
-View Source of EML File with Mozilla Thunderbird: <br/>
+View source of EML file with Mozilla Thunderbird: <br/>
 <img src="https://i.imgur.com/Vx2RJaW.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
 
@@ -35,11 +35,11 @@ When viewing the email source, it becomes evident that the return path differs f
 <br />
 
 <p align="center">
-Next Copy the Link Address in Email for Further Investigation:  <br/>
+Next copy the link address in email for further investigation:  <br/>
 <img src="https://i.imgur.com/qw23jhY.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
 <br />
-Perform Search on VirusTotal for Email Link URL, Find Multiple Security Vendors Flagged URL as Malicious and Specifically as a Phishing Attempt.: <br/>
+Perform search on VirusTotal for email link URL, find multiple security vendors flagged URL as malicious and specifically as a phishing attempt.: <br/>
 <img src="https://i.imgur.com/tkNCM85.png" height="80%" width="80%" alt="Phishing Investigation "/>
 <br />
 Find Body SHA-256 Under Details: <br/>
